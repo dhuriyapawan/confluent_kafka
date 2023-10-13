@@ -1,2 +1,17 @@
 confluent-kafka[avro,json,protobuf]
 pyspark==3.2.1
+
+To install kafaka on local machine
+Install Python4 version (check for windows,Linux)
+If not thne install pip3 package exlicitly
+
+pip3 install confluent_kafka
+
+pip3 install pandas
+
+pip3 install requests
+
+#During the execuation of final code you might face error of "No Module name jsonschema
+
+#pip3 install jsonschema
+
